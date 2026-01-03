@@ -1,0 +1,19 @@
+gestion_notes_c/
+├─ src/
+│  ├─ main.c
+│  ├─ student.c
+│  ├─ storage.c
+│  └─ utils.c
+├─ include/
+│  ├─ student.h
+│  ├─ storage.h
+│  └─ utils.h
+├─ data/
+│  └─ students.csv      (créé automatiquement si absent)
+└─ Makefile             (optionnel, mais pratique)
+
+
+
+
+gcc -Wall -Wextra -O2 -Iinclude src/main.c src/utils.c src/student.c src/storage.c -o gestion_notes
+./gestion_notes
