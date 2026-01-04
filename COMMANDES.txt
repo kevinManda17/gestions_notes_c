@@ -9,8 +9,8 @@ gestion_notes_c/
 │  ├─ storage.h
 │  └─ utils.h
 ├─ data/
-│  └─ students.csv      (créé automatiquement si absent)
-└─ Makefile             (optionnel, mais pratique)
+│  └─ students.csv      
+└
 
 
 
